@@ -2,13 +2,13 @@ import openai
 import requests
 
 # Put your OpenAI API key here
-# openai.api_key = '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'
+# openai.api_key = ''
 
 
 # Function to generate and save an image based on text description
 def generate_image_from_text_openai(text_description, output_path):
     # Your OpenAI API key (ensure to keep it secure and not expose in shared code)
-    openai.api_key = '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'
+    openai.api_key = ''
 
     try:
         # Create an image using the OpenAI API
